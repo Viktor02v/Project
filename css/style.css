@@ -292,6 +292,54 @@ body {
   text-align: center;
 }
 
+.buttons {
+  background-color: #bea9a9;
+  padding: 50px 0;
+}
+.buttons__body {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.buttons__row {
+  display: flex;
+  flex-direction: column;
+}
+.buttons__column {
+  overflow: hidden;
+  flex: 0 1 44.444%;
+  border: 1px solid rgb(51, 51, 119);
+  margin: 0 0 30px 0;
+  border-radius: 5px;
+}
+.buttons__subtitle {
+  background-color: #a1a0a0;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+}
+.buttons__text {
+  line-height: 20px;
+  background-color: #fff;
+  padding: 20px;
+  flex: 1 1 auto;
+}
+.buttons__text p {
+  margin: 0 0 20px 0;
+}
+.buttons__botton {
+  padding: 10px 0;
+  background-color: #faefef;
+  text-align: center;
+  min-width: 100%;
+}
+.buttons__botton button {
+  box-shadow: 0 0 15px black;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px;
+}
+
 .container {
   max-width: 1180px;
   margin: 0 auto;
